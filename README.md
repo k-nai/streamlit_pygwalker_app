@@ -1,0 +1,2 @@
+# streamlit_pygwalker_app
+Stramlit上でPyGWalkerを動作させる
