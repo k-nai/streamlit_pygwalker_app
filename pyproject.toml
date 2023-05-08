@@ -4,14 +4,12 @@ version = "0.1.0"
 description = "Running PyGWalker on Stramlit"
 authors = ["k-nai"]
 readme = "README.md"
-packages = [{include = "streamlit_pygwalker_app"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-polars = "^0.17.12"
 streamlit = "^1.22.0"
 pygwalker = "^0.1.7"
-
+pandas = "^2.0.1"
 
 [build-system]
 requires = ["poetry-core"]

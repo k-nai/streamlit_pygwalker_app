@@ -1,7 +1,6 @@
-import polars as pl
-import streamlit as st
-
+import pandas as pd
 import pygwalker as pyg
+import streamlit as st
 
 # ワイド表示
 st.set_page_config(layout="wide")
@@ -16,7 +15,7 @@ df = None
 with st.sidebar:
     uploaded_files = st.file_uploader("Choose a CSV file")
     if uploaded_files is not None:
-        df = pl.read_csv(uploaded_files, try_parse_dates=True)
+        df = pd.read_csv(uploaded_files)
 
 # pygwalkerで表示
 pyg.walk(df, env='Streamlit')
