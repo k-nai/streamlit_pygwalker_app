@@ -2,6 +2,8 @@
 
 Runs PyGWalker on Stramlit.
 
+![](https://storage.googleapis.com/zenn-user-upload/bc82ad2a0378-20230407.png)
+
 ## Requirements
 
 * macOS or Linux
