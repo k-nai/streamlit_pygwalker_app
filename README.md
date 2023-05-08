@@ -30,7 +30,7 @@ If you use poetry, execute following command:
 ```sh
 pip install -U pip
 pip install poetry
-poetry run pip install -U pip setuptools
+poetry install
 poetry run streamlit run streamlit_app.py
 ```
 
