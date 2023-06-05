@@ -12,7 +12,7 @@ Runs PyGWalker on Stramlit.
 ### Library
 
 * Poetry
-* Polars
+* pandas
 * Streamlit
 * PyGWalker
 
