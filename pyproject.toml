@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-streamlit = "^1.22.0"
+streamlit = "^1.30.0"
 pygwalker = "^0.1.7"
 pandas = "^2.0.1"
 
